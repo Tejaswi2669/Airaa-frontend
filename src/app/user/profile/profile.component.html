@@ -1,1 +1,8 @@
-<p>profile works!</p>
+<div class="profile">
+    <h2>Your Profile</h2>
+    <p><strong>Username:</strong> {{ user.username }}</p>
+    <p><strong>Email:</strong> {{ user.email }}</p>
+    <p><strong>Points:</strong> {{ user.points }}</p>
+    <button (click)="editProfile()">Edit Profile</button>
+  </div>
+  

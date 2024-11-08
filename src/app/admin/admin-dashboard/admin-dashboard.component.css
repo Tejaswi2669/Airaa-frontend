@@ -1,0 +1,25 @@
+.admin-dashboard {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .admin-dashboard nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .admin-dashboard nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .admin-dashboard nav ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .admin-dashboard nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,52 @@
+.product-details {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: flex-start;
+  }
+  
+  .product-image {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .product-info h2 {
+    margin-top: 0;
+  }
+  
+  .price {
+    font-size: 1.5em;
+    color: #4CAF50;
+  }
+  
+  .quantity {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .quantity button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .quantity input {
+    width: 50px;
+    text-align: center;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

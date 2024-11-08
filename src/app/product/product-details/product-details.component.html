@@ -1,1 +1,15 @@
-<p>product-details works!</p>
+<div class="product-details">
+    <img [src]="product.imageUrl" alt="{{ product.name }}" class="product-image">
+    <div class="product-info">
+      <h2>{{ product.name }}</h2>
+      <p>{{ product.description }}</p>
+      <span class="price">${{ product.price | number:'1.2-2' }}</span>
+      <div class="quantity">
+        <button (click)="decreaseQuantity()">-</button>
+        <input type="number" [(ngModel)]="quantity" min="1">
+        <button (click)="increaseQuantity()">+</button>
+      </div>
+      <button (click)="addToCart(product)">Add to Cart</button>
+    </div>
+  </div>
+  
